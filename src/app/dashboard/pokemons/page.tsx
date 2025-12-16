@@ -2,6 +2,14 @@ import { PokemonsGrid } from "@/pokemons/components/PokemonsGrid";
 import { PokemonsResponse } from "@/pokemons/interfaces/pokemons-response";
 import { SimplePokemon } from "@/pokemons/interfaces/simple-pokemon";
 
+
+export const metadata = {
+  title: "Pokémons - Dashboard",
+  description: "Listado estático de los primeros 151 Pokémon",
+};
+
+
+
 const getPokemons = async (
   limit = 20,
   offset = 0
