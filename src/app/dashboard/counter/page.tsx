@@ -14,7 +14,7 @@ export default function CounterPage() {
         <IoCart className="text-blue-800" />
         Carrito de Compras
       </span>
-      <CartCounter initialCount={12} />
+      <CartCounter initialCount={20} />
     </div>
   );
 }
