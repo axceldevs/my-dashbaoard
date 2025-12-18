@@ -1,11 +1,4 @@
-import { PokemonsGrid } from "@/pokemons/components/PokemonsGrid";
-import { PokemonsResponse } from "@/pokemons/interfaces/pokemons-response";
-import { SimplePokemon } from "@/pokemons/interfaces/simple-pokemon";
-
-export const metadata = {
-  title: "Favoritos - Pokémon",
-  description: "Listado de tus Pokémon favoritos",
-};
+import { FavoritePokemons } from "@/pokemons/components/FavoritesPokemons";
 
 export default async function PokemonsPage() {
 
@@ -17,8 +10,9 @@ export default async function PokemonsPage() {
           Listado de Pokémons favoritos
         </span>
       </h1>
-
-      <PokemonsGrid pokemons={[]} />
+      <FavoritePokemons/>
     </div>
   );
 }
+
+
